@@ -100,3 +100,37 @@
     }
     
 }
+
+@media screen and (max-width: 280px){
+    nav.desktop{
+        display: none;
+    }
+
+    nav.mobile{
+        display: block;
+    }
+
+    .botao-menu-mobile{
+        font-size: 20px;
+        cursor: pointer;
+        color: black;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+
+    .logosite{
+        padding-left: 1rem;
+        margin-right: 2rem;
+
+        width: 45px;
+        height: 30px;
+    }   
+    
+    #logoleft{
+        margin-right: 2rem;
+
+        width: 45px;
+        height: 40px;
+    }  
+    
+}
